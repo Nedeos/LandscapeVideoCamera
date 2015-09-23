@@ -3,11 +3,6 @@ LandscapeVideoCapture [![Build Status](https://travis-ci.org/JeroenMols/Landscap
 
 Highly flexible Android Camera which offers granular control over the video quality and filesize, without restricting recording orientation.
 
-<a href="https://play.google.com/store/apps/details?id=com.jmolsmobile.landscapevideocapture_sample">
-  <img alt="Get it on Google Play"
-       src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
-</a>
-
 There are a number of issues with the default Android intent to capture videos (`MediaStore.ACTION_VIDEO_CAPTURE`) which led me to create this library project:
 
 1. The default intent only accepts integer quality parameters of 0 (MMS quality) or 1 (highest available quality), using the intent extra `MediaStore.EXTRA_VIDEO_QUALITY`.
@@ -29,10 +24,6 @@ This library provides a full and reusable custom camera, which:
   * ...
 
 ## Screenshots
-
-<p align="center">
-  <img src="https://raw.github.com/jmolsmobile/LandscapeVideoCapture/master/playstore/screenshot_2.png" alt="Portrait" height="450"/>
-</p>
 
 <p align="center">
   <img src="https://raw.github.com/jmolsmobile/LandscapeVideoCapture/master/playstore/screenshot_3.png" alt="Not recording" width="450"/>
