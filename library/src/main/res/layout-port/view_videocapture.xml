@@ -37,9 +37,8 @@
         android:id="@+id/videocapture_recordbtn_iv"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:layout_marginRight="-20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:background="@drawable/states_btn_capture"
         android:clickable="true" />
 
@@ -48,8 +47,10 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_above="@id/videocapture_recordbtn_iv"
-        android:layout_alignParentRight="true"
-        android:layout_margin="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="40dp"
         android:background="@drawable/states_btn_acceptdecline"
         android:clickable="true"
         android:padding="8dp"
@@ -60,14 +61,14 @@
         android:id="@+id/videocapture_declinebtn_iv"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/videocapture_recordbtn_iv"
-        android:layout_centerVertical="true"
-        android:layout_margin="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="40dp"
         android:background="@drawable/states_btn_acceptdecline"
         android:clickable="true"
         android:padding="8dp"
         android:src="@drawable/btn_decline"
         android:visibility="gone" />
 
-</RelativeLayout>
+</RelativeLayout><!-- From: file:/build/library/src/main/res/layout/view_videocapture.xml -->
