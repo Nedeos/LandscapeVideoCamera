@@ -1,7 +1,7 @@
 LandscapeVideoCapture [![Build Status](https://travis-ci.org/JeroenMols/LandscapeVideoCamera.svg?branch=master)](https://travis-ci.org/JeroenMols/LandscapeVideoCamera) [![Coverage Status](https://coveralls.io/repos/JeroenMols/LandscapeVideoCamera/badge.svg?branch=master&service=github)](https://coveralls.io/github/JeroenMols/LandscapeVideoCamera?branch=master)
 =====================
 
-Highly flexible Android Camera which offers granular control over the video quality and filesize, while restricting recordings to be landscape only.
+Highly flexible Android Camera which offers granular control over the video quality and filesize, without restricting recording orientation.
 
 <a href="https://play.google.com/store/apps/details?id=com.jmolsmobile.landscapevideocapture_sample">
   <img alt="Get it on Google Play"
@@ -58,7 +58,7 @@ This library provides a full and reusable custom camera, which:
 
   2. Add a dependency on the library:
 
-          compile 'com.github.JeroenMols:LandscapeVideoCamera:1.1.2'
+          compile 'com.github.Nedeos:LandscapeVideoCamera:1.1.2'
 
   3. Specify the VideoCaptureActivity in your manifest:
   
